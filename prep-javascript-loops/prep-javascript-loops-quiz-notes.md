@@ -7,14 +7,19 @@ Answer the following questions in the provided markdown file before turning in t
 - What is the purpose of the **condition** expression in the `for` and `while` loops?
 
 - When is the first expression in the parentheses for a `for` loop (known as the **initialization**) evaluated?
+  --> at the very beginning of the loop.
 
 - When is the second expression in the parentheses for a `for` loop (known as the **condition**) evaluated?
+  --> It gets evaluated before each new iteration of the loop.
 
 - When is the third expression in the parentheses for a `for` loop (known as the **final expression**) evaluated?
+  --> At the end of each iteration.
 
 - What is the purpose of the **final expression** in a `for` loop?
+  --> To make sure we are moving forward to the next element. No infinite loop.
 
 - What types of data should the `for...in` loop be used on?
+  --> things like object. It is preferred not to use it on arrays or strings.
 
 ## Notes
 
